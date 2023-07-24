@@ -1,0 +1,217 @@
+*{
+
+margin: 0px;
+padding: 0px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+height: 15vh;
+
+
+}
+main{
+
+  height: 60vh;
+  
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+
+
+  footer{
+
+    height: 15vh;
+   
+    background: #f2f2f2;
+  }
+
+header nav{
+
+display: flex;
+justify-content: flex-end;
+
+}
+header nav  {
+
+  display: flex;
+  justify-content: flex-end;
+  
+  
+  
+  }
+
+#nav-right-section{
+
+ padding: 20px 10px;
+
+  
+}  
+
+#nav-right-section li{
+
+  padding: 10px 10px;
+ 
+   
+ }  
+
+#nav-left-section{
+
+padding: 10px 10px;
+align-items: center;
+
+  
+} 
+
+#nav-left-section li {
+
+  padding: 10px 10px;
+  
+    
+  } 
+
+li{
+padding: 20px 10px;
+}
+
+#footer-listas{
+  display: flex;
+  justify-content: space-evenly;
+
+  cursor: pointer;
+  
+}
+
+#footer-listas a
+{color:  #70757a;}
+
+
+.pais{
+
+padding: 15px 30px ;
+
+}
+
+#footer-listas ul li{
+
+
+padding: 15px;
+
+
+}
+
+ul{
+  
+  display: flex;
+  list-style: none;
+}
+
+button{
+
+background-color: #f8f9fa;
+padding: 0 16px;
+margin: 11px 4px;
+height: 36px;
+border: 1px solid #dadce0;
+border-radius: 4px;
+cursor: pointer;
+color: #3c4043;
+border: none;
+
+
+}
+
+button:hover{
+
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+
+  background-color: #f8f9fa;
+  color: #202124;  
+
+}
+
+
+
+
+
+
+#botones{
+
+margin-bottom: 300;
+
+}
+
+
+#seccion-buscador{
+
+
+margin: 20px 0px;  
+border: 1px solid #dfe1e5;
+width: 560px;
+display: flex;
+justify-content: space-between;
+border-radius: 24px;
+min-height: 44px;
+
+
+}
+
+#seccion-buscador:hover{
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+ 
+}
+
+
+
+#seccion-buscador svg {
+
+  padding: 5px 7px ; 
+  width: 24px;
+}
+
+
+#buscador{
+
+  width: 85%;
+  border: none;
+  cursor: text;
+  outline: none;
+  
+
+}
+
+
+a:link{text-decoration: none;
+  color:rgba(0,0,0,.87);
+
+}
+a:hover{text-decoration: underline;}
+
+a:visited{
+  
+  
+  color:rgba(0,0,0,.87);
+
+
+}
+
+
+
+
+
+
+
+
+
+
